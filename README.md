@@ -10,29 +10,36 @@ The flow of data used is:
 
 ## Project Set Up and Installation
 
-**1. You need to install openvino successfully.
+#### Step 1
+You need to install openvino successfully.
 See this guide for installing [OpenVino ToolKit](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit/choose-download.html).
 
-2. Clone the repository from this URL: 
+#### Step 2
+Clone the repository from this URL: 
 
-3. After you clone the repo, you need to install the dependecies
+#### Step 3
+After you clone the repo, you need to install the dependecies
 
 pip3 install -r requirements.txt
 
-4. Create Virtual Enviorment in working directory.
+#### Step 4
+Create Virtual Enviorment in working directory.
 
  cd computer_pointer_controller
  python3 -m venv venv
- 
-5. Activate Virtual Enviorment
+
+#### Step 5
+Activate Virtual Enviorment
 
  source venv/bin/activate
 
-6. Initialize the openVINO environment:-
+#### Step 6
+Initialize the openVINO environment:-
 
 source /opt/intel/openvino/bin/setupvars.sh -pyver 3.6
 
-7. Download the following models by using openVINO model downloader:
+#### Step 7
+Download the following models by using openVINO model downloader:
 
 cd models
  - [Face Detection Model](https://docs.openvinotoolkit.org/latest/_models_intel_face_detection_adas_binary_0001_description_face_detection_adas_binary_0001.html)
