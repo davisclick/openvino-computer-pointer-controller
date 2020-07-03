@@ -15,48 +15,48 @@ You need to install openvino successfully.
 See this guide for installing [OpenVino ToolKit](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit/choose-download.html).
 
 #### Step 2
-Clone the repository from this URL: 
+Clone the repository from this URL: https://github.com/davisclick/openvino-eye-gaze-estimation
 
 #### Step 3
 After you clone the repo, you need to install the dependecies
 
-pip3 install -r requirements.txt
+	pip3 install -r requirements.txt
 
 #### Step 4
 Create Virtual Enviorment in working directory.
 
- cd computer_pointer_controller
- python3 -m venv venv
+ 	cd computer_pointer_controller
+ 	python3 -m venv venv
 
 #### Step 5
 Activate Virtual Enviorment
 
- source venv/bin/activate
+ 	source venv/bin/activate
 
 #### Step 6
 Initialize the openVINO environment:-
 
-source /opt/intel/openvino/bin/setupvars.sh -pyver 3.6
+	source /opt/intel/openvino/bin/setupvars.sh -pyver 3.6
 
 #### Step 7
 Download the following models by using openVINO model downloader:
 
-cd models
+	cd models
  - [Face Detection Model](https://docs.openvinotoolkit.org/latest/_models_intel_face_detection_adas_binary_0001_description_face_detection_adas_binary_0001.html)
  
- python /opt/intel/openvino/deployment_tools/tools/model_downloader/downloader.py --name "face-detection-adas-0001"
+ 	python /opt/intel/openvino/deployment_tools/tools/model_downloader/downloader.py --name "face-detection-adas-0001"
 
 - [Facial Landmarks Detection Model](https://docs.openvinotoolkit.org/latest/_models_intel_landmarks_regression_retail_0009_description_landmarks_regression_retail_0009.html)
 
-python /opt/intel/openvino/deployment_tools/tools/model_downloader/downloader.py --name "landmarks-regression-retail-0009"
+	python /opt/intel/openvino/deployment_tools/tools/model_downloader/downloader.py --name "landmarks-regression-retail-0009"
 
 - [Head Pose Estimation Model](https://docs.openvinotoolkit.org/latest/_models_intel_head_pose_estimation_adas_0001_description_head_pose_estimation_adas_0001.html)
 
- python /opt/intel/openvino/deployment_tools/tools/model_downloader/downloader.py --name "head-pose-estimation-adas-0001"
+ 	python /opt/intel/openvino/deployment_tools/tools/model_downloader/downloader.py --name "head-pose-estimation-adas-0001"
 
 - [Gaze Estimation Model](https://docs.openvinotoolkit.org/latest/_models_intel_gaze_estimation_adas_0002_description_gaze_estimation_adas_0002.html)
 
-python /opt/intel/openvino/deployment_tools/tools/model_downloader/downloader.py --name "gaze-estimation-adas-0002"
+	python /opt/intel/openvino/deployment_tools/tools/model_downloader/downloader.py --name "gaze-estimation-adas-0002"
 
 
 ## Demo
