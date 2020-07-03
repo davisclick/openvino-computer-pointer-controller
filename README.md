@@ -10,7 +10,7 @@ The flow of data used is:
 
 ## Project Set Up and Installation
 
-1. You need to install openvino successfully.
+**1. You need to install openvino successfully.
 See this guide for installing [OpenVino ToolKit](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit/choose-download.html).
 
 2. Clone the repository from this URL: 
