@@ -1,6 +1,3 @@
-# openvino-eye-gaze-estimation
-OpenVino eye-gaze-estimation to control computer mouse. Four pre-trained model provided  by Open Model Zoo, are used.
-
 # Computer Pointer Controller
 
 In this project, it is use a gaze detection model to control the mouse pointer of the computer.
