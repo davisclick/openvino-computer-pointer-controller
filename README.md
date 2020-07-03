@@ -25,7 +25,6 @@ After you clone the repo, you need to install the dependecies
 #### Step 4
 Create Virtual Enviorment in working directory.
 
- 	cd computer_pointer_controller
  	python3 -m venv venv
 
 #### Step 5
@@ -43,8 +42,10 @@ Download the following models by using openVINO model downloader:
 
 	cd models
  - [Face Detection Model](https://docs.openvinotoolkit.org/latest/_models_intel_face_detection_adas_binary_0001_description_face_detection_adas_binary_0001.html)
- 
+ 	
+	```
  	python /opt/intel/openvino/deployment_tools/tools/model_downloader/downloader.py --name "face-detection-adas-0001"
+	```
 
 - [Facial Landmarks Detection Model](https://docs.openvinotoolkit.org/latest/_models_intel_landmarks_regression_retail_0009_description_landmarks_regression_retail_0009.html)
 
