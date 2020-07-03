@@ -46,22 +46,19 @@ Download the following models by using openVINO model downloader:
  ```
  	python /opt/intel/openvino/deployment_tools/tools/model_downloader/downloader.py --name "face-detection-adas-0001"
  ```
- ####Face Detection Model
-	```
- 	python /opt/intel/openvino/deployment_tools/tools/model_downloader/downloader.py --name "face-detection-adas-0001"
-	```
-####Facial Landmarks Detection Model
-	```
+**- [Facial Landmarks Detection Model](https://docs.openvinotoolkit.org/latest/_models_intel_landmarks_regression_retail_0009_description_landmarks_regression_retail_0009.html)**
+ ```
 	python /opt/intel/openvino/deployment_tools/tools/model_downloader/downloader.py --name "landmarks-regression-retail-0009"
-	```
-####Head Pose Estimation Model
-	```
+ ```
+
+**- [Head Pose Estimation Model](https://docs.openvinotoolkit.org/latest/_models_intel_head_pose_estimation_adas_0001_description_head_pose_estimation_adas_0001.html)**
+ ```
  	python /opt/intel/openvino/deployment_tools/tools/model_downloader/downloader.py --name "head-pose-estimation-adas-0001"
-	```
-####Gaze Estimation Model
-	```
+ ```
+**- [Gaze Estimation Model](https://docs.openvinotoolkit.org/latest/_models_intel_gaze_estimation_adas_0002_description_gaze_estimation_adas_0002.html)**
+ ```
 	python /opt/intel/openvino/deployment_tools/tools/model_downloader/downloader.py --name "gaze-estimation-adas-0002"
-	```
+ ```
 
 ## Demo
 *TODO:* Explain how to run a basic demo of your model.
