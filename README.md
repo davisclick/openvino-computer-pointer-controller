@@ -171,8 +171,8 @@ computer-pointer-controller
 ## Results
 
 - Load model time for GPU is larger than CPU and FPGA
-- Load time for models with FP32 is less than FP16 and the same for FP16 models is less than INT8.
 - Reducing the precision affects the accuracy.
+- FPGA take more time executing inferences. 
 
 ### Async Inference
 It is used the start_async method, but it is not a truly async mode.
