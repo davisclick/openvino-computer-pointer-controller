@@ -8,6 +8,8 @@ It is use the InferenceEngine API from Intel's OpenVino ToolKit. The gaze estima
  
 The flow of data used is:
 
+![openvino-eye-gaze-estimation](./media/pipeline.png)
+
 ## Project Set Up and Installation
 
 #### Step 1
