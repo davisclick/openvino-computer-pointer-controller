@@ -63,6 +63,14 @@ Download the following models by using openVINO model downloader.
 
 ## Demo
 
+## Run command: 
+ ```
+python3 src/main.py -fd ../models/intel/face-detection-adas-0001/FP16/face-detection-adas-0001 
+-fl ../models/intel/landmarks-regression-retail-0009/FP16/landmarks-regression-retail-0009 
+-hp ../models/intel/head-pose-estimation-adas-0001/FP16/head-pose-estimation-adas-0001 
+-ge ../models/intel/gaze-estimation-adas-0002/FP16/gaze-estimation-adas-0002 
+-i ../media/demo.mp4 -d CPU -pof fd fl hp ge
+ ```
 
 ![openvino-eye-gaze-estimation](./media/demo.png)
 
