@@ -169,6 +169,13 @@ computer-pointer-controller
   | CPU              |  79                                          |  1.4                       |  8  |
   | GPU              |  74                                          |  52 .4                     |  9  |
   | FPGA             |  130                                         |  3                         |  5  |
+  
+
+Using my Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz with the [OpenVino Workbench](https://docs.openvinotoolkit.org/latest/_docs_Workbench_DG_Install_from_Docker_Hub.html#install_dl_workbench_from_docker_hub_on_windows_os)
+
+![openvino-eye-gaze-estimation](./media/FP32.png)
+![openvino-eye-gaze-estimation](./media/FP16.png)
+![openvino-eye-gaze-estimation](./media/FPINT8.png)
 
 ## Results
 
