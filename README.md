@@ -185,7 +185,7 @@ computer-pointer-controller
 ## Results
 
 - The loading model time for GPU is larger than CPU and FPGA.
-- Reducing the precision affects the accuracy, using the OpenVino Workbench and generating a model performance comparition it is posible to see the model with presition FPINT8 is very slow in terms of throughput and latency compared to FP16 and FP32.
+- Reducing the precision affects the accuracy, using the OpenVino Workbench and generating a model performance comparition it is posible to see the model with presition FPINT8 is very slow in terms of throughput(FPS) and latency(ms) compared to FP16 and FP32. Converting from FP32 to FP16 to FPINT8 produce the loss of information wich generate to loose accuracy. 
 - FPGA take more time executing inferences. 
 
 ### Async Inference
