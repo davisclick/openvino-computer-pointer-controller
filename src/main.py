@@ -123,6 +123,7 @@ def main():
             fd_infertime += time.time() - start_time
 
             if len(cropped_face) == 0:
+                logger.error("Unable to detect the face.")
                 continue
             
             start_time = time.time()
@@ -199,7 +200,13 @@ def main():
         feeder.close()
 
     except Exception as ex:
-        logging.exception("Error in inference:" + str(ex))
+        logging.exception("Error in inference")
+        logging.exception("Exception type:")
+        logging.exception(type(ex))  
+        logging.exception("Exception args:") 
+        logging.exception(ex.args)    
+        logging.exception("Exception:")  
+        logging.exception(ex)   
 
 if __name__ == '__main__':
 
