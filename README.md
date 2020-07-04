@@ -141,7 +141,7 @@ computer-pointer-controller
 
 ## Benchmarks
 
-* Using the [Intel® DevCloud] (https://devcloud.intel.com/edge/)
+* Using the [Intel® DevCloud](https://devcloud.intel.com/edge/)
   * IEI Tank 870-Q170 - The inference workload should run on the CPU.
   * IEI Tank 870-Q170 - The inference workload should run on the Intel® HD Graphics 530 integrated GPU.
   * IEI Tank 870-Q170 - The inference workload will run on the IEI Mustang-F100-A10 FPGA card installed in this node.
