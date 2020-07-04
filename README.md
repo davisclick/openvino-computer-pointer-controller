@@ -140,10 +140,35 @@ computer-pointer-controller
 - <b>requirements.txt</b> All the dependencies of the project listed here.
 
 ## Benchmarks
-*TODO:* Include the benchmark results of running your model on multiple hardwares and multiple model precisions. Your benchmarks can include: model loading time, input/output processing time, model inference time etc.
+
+* Using the [Intel® DevCloud] (https://devcloud.intel.com/edge/)
+  * IEI Tank 870-Q170 - The inference workload should run on the CPU.
+  * IEI Tank 870-Q170 - The inference workload should run on the Intel® HD Graphics 530 integrated GPU.
+  * IEI Tank 870-Q170 - The inference workload will run on the IEI Mustang-F100-A10 FPGA card installed in this node.
+
+* for FP32
+  | Type of Hardware | Total inference time in seconds              | Time for loading the model | fps |
+  |------------------|----------------------------------------------|----------------------------|------
+  | CPU              |  69                                          |  1.5                       |  9  |
+  | GPU              |  70                                          |  55                        |  9  |
+  | FPGA             |  118                                         |  6.5                       |  5  |
+
+* for FP16
+  | Type of Hardware | Total inference time in seconds              | Time for loading the model | fps |
+  |------------------|----------------------------------------------|----------------------------|------
+  | CPU              |  78                                          |  1.4                       |  8  |
+  | GPU              |  75                                          |  53                      	 |  9  |
+  | FPGA             |  125                                         |  4.5                       |  5  |
+
+
+* for INT8
+  | Type of Hardware | Total inference time in seconds              | Time for loading the model | fps |
+  |------------------|----------------------------------------------|----------------------------|------
+  | CPU              |  78                                          |  1.4                       |  8  |
+  | GPU              |  74                                          |  52 .4                     |  9  |
+  | FPGA             |  130                                         |  3                         |  5  |
 
 ## Results
-*TODO:* Discuss the benchmark results and explain why you are getting the results you are getting. For instance, explain why there is difference in inference time for FP32, FP16 and INT8 models.
 
 ## Stand Out Suggestions
 This is where you can provide information about the stand out suggestions that you have attempted.
