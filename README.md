@@ -103,6 +103,8 @@ computer-pointer-controller
 |
 |--media
 |   |--demo.mp4
+|   |--demo.png
+|   |--pipeline.mp4
 |--models
 |   |--face-detection-adas-binary-0001
 |   |--gaze-estimation-adas-0002
