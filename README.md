@@ -64,6 +64,8 @@ Download the following models by using openVINO model downloader:
 ## Demo
 *TODO:* Explain how to run a basic demo of your model.
 
+![openvino-eye-gaze-estimation](./media/demo.png)
+
 ## Documentation
 
 ### Used Models
