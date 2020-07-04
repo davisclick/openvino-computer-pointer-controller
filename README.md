@@ -54,7 +54,7 @@ Download the following models by using openVINO model downloader.
  ```
 **[Head Pose Estimation Model](https://docs.openvinotoolkit.org/latest/_models_intel_head_pose_estimation_adas_0001_description_head_pose_estimation_adas_0001.html)**
  ```
- 	python /opt/intel/openvino/deployment_tools/tools/model_downloader/downloader.py --name "head-pose-estimation-adas-0001"
+	python /opt/intel/openvino/deployment_tools/tools/model_downloader/downloader.py --name "head-pose-estimation-adas-0001"
  ```
 **[Gaze Estimation Model](https://docs.openvinotoolkit.org/latest/_models_intel_gaze_estimation_adas_0002_description_gaze_estimation_adas_0002.html)**
  ```
@@ -129,7 +129,7 @@ computer-pointer-controller
     + [profiling.py](./src/profiling.py) : To check performance of script line by line.
    
 - <b>README.md</b> File that you are reading right now.
-- <b>requirements.txt</b> All the dependencies of the project listed here
+- <b>requirements.txt</b> All the dependencies of the project listed here.
 
 ## Benchmarks
 *TODO:* Include the benchmark results of running your model on multiple hardwares and multiple model precisions. Your benchmarks can include: model loading time, input/output processing time, model inference time etc.
