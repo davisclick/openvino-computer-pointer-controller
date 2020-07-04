@@ -1,7 +1,8 @@
 import os
-from openvino.inference_engine import IENetwork, IECore
 import cv2
 import math
+import logging
+from openvino.inference_engine import IENetwork, IECore
 
 class GazeEstimation:
     '''
@@ -30,18 +31,14 @@ class GazeEstimation:
 
 
     def load_model(self):
-
-        print('Loading Network...')
         
         self.plugin = IECore()
         self.network = self.plugin.read_network(model=self.model_structure, weights=self.model_weights)
         
-        if( self.check_model() == 0 ):
+        if not self.check_model():
             exit(1)
         
         self.exec_network = self.plugin.load_network(network=self.model, device_name=self.device, num_requests=1)
-        
-        print('Network loaded.')
 
     def predict(self, left_eye, right_eye, head_position):
 
@@ -66,22 +63,22 @@ class GazeEstimation:
         supported_layers = self.plugin.query_network(network=self.network, device_name=self.device)
         unsupported_layers = [layer for layer in self.network.layers.keys() if layer not in supported_layers]
         if len(unsupported_layers) > 0:
-            print("unsupported layers found:{}".format(unsupported_layers))
-            if not self.extensions == None:
-                print("Adding cpu_extension")
+            logging.info("unsupported layers found:{}".format(unsupported_layers))
+            if not self.extensions:
+                logging.info("Adding cpu_extension")
                 self.plugin.add_extension(self.extensions, self.device)
                 supported_layers = self.plugin.query_network(network = self.network, device_name=self.device)
                 unsupported_layers = [l for l in self.network.layers.keys() if l not in supported_layers]
                 if len(unsupported_layers)!=0:
-                    print("After adding the extension still unsupported layers found")
-                    return 0
-                print("After adding the extension the issue is resolved")
+                    logging.info("After adding the extension still unsupported layers found")
+                    return False
+                logging.info("After adding the extension the issue is resolved")
             else:
-                print("Give the path of cpu extension")
-                return 0
-        print("All layers are supported !!")
+                logging.info("Give the path of cpu extension")
+                return False
+        logging.info("All layers are supported for " + self.model_structure)
 
-        return 1 
+        return True 
 
     def preprocess_input(self, image):
         
