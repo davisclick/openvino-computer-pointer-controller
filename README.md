@@ -17,10 +17,10 @@ You need to install openvino successfully.
 See this guide for installing [OpenVino ToolKit](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit/choose-download.html).
 
 #### Step 2
-Clone the repository from this URL: https://github.com/davisclick/openvino-eye-gaze-estimation
+Clone the repository from this URL: https://github.com/davisclick/openvino-eye-gaze-estimation.
 
 #### Step 3
-After you clone the repo, you need to install the dependecies
+After you clone the repo, you need to install the dependecies.
 
 	pip3 install -r requirements.txt
 
@@ -30,17 +30,17 @@ Create Virtual Enviorment in working directory.
  	python3 -m venv venv
 
 #### Step 5
-Activate Virtual Enviorment
+Activate Virtual Enviorment.
 
  	source venv/bin/activate
 
 #### Step 6
-Initialize the openVINO environment:-
+Initialize the openVINO environment.
 
 	source /opt/intel/openvino/bin/setupvars.sh -pyver 3.6
 
 #### Step 7
-Download the following models by using openVINO model downloader:
+Download the following models by using openVINO model downloader.
 
 	cd models
 
@@ -62,7 +62,7 @@ Download the following models by using openVINO model downloader:
  ```
 
 ## Demo
-*TODO:* Explain how to run a basic demo of your model.
+
 
 ![openvino-eye-gaze-estimation](./media/demo.png)
 
