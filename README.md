@@ -2,8 +2,8 @@
 
 In this project, it is use a gaze detection model to control the mouse pointer of the computer.
 It is use the InferenceEngine API from Intel's OpenVino ToolKit. The gaze estimation model requires three inputs:
- - The head pose
- - The left eye image
+ - The head pose.
+ - The left eye image.
  - The right eye image.
  
 The flow of data used is:
