@@ -111,24 +111,23 @@ computer-pointer-controller
     |--main.py
     |--mouse_controller.py
 ```
-- <b>media</b> Folder with the media files
-- <b>models</b> Folder with the pre-trained models from Open Model Zoo
+- <b>media</b> Folder with the media files.
+- <b>models</b> Folder with the pre-trained models from Open Model Zoo.
     - intel
         1. face-detection-adas-binary-0001
         2. gaze-estimation-adas-0002
         3. head-pose-estimation-adas-0001
         4. landmarks-regression-retail-0009
-- <b>src</b> Folder with the python files of the app
-    + [face_detection.py](./src/face_detection.py) : Face Detection related inference code
+- <b>src</b> Folder with the python files of the app.
+    + [face_detection.py](./src/face_detection.py) : Face Detection related inference code.
     + [facial_landmarks_detection.py](./src/facial_landmarks_detection.py) : Take the deteted face as input, preprocessed it, perform inference on it and detect the eye landmarks, postprocess the outputs.
-    + [gaze_estimation.py](./src/gaze_estimation.py) : Gaze Estimation related inference code
-    + [head_pose_estimation.py](./src/head_pose_estimation.py) : Head Pose Estimation related inference code
+    + [gaze_estimation.py](./src/gaze_estimation.py) : Gaze Estimation related inference code.
+    + [head_pose_estimation.py](./src/head_pose_estimation.py) : Head Pose Estimation related inference code.
     + [input_feeder.py](./src/input_feeder.py) : Contains InputFeeder class which initialize VideoCapture as per the user argument and return the frames one by one.
-	+ [main.py](./src/driver.py) : Main script to run the app
+	+ [main.py](./src/driver.py) : Main script to run the app.
     + [mouse_controller.py](./src/mouse_controller.py) : Contains MouseController class which take x, y coordinates value, speed, precisions and according these values it moves the mouse pointer by using pyautogui library.
-    + [profiling.py](./src/profiling.py) : To check performance of script line by line
-    
-- <b>.gitignore</b> Listing of files that should not be uploaded to GitHub
+    + [profiling.py](./src/profiling.py) : To check performance of script line by line.
+   
 - <b>README.md</b> File that you are reading right now.
 - <b>requirements.txt</b> All the dependencies of the project listed here
 
