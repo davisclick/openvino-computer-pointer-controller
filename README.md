@@ -83,7 +83,7 @@ python3 src/main.py -fd ../models/intel/face-detection-adas-0001/FP16/face-detec
 3. [Head Pose Estimation Model](https://docs.openvinotoolkit.org/latest/_models_intel_head_pose_estimation_adas_0001_description_head_pose_estimation_adas_0001.html)
 4. [Gaze Estimation Model](https://docs.openvinotoolkit.org/latest/_models_intel_gaze_estimation_adas_0002_description_gaze_estimation_adas_0002.html)
 
-### Command Line Arguments for Running the app
+### Command Line Arguments for Running the App
 
 Argument|Type|Description
 | ------------- | ------------- | -------------
