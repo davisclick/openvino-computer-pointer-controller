@@ -17,7 +17,7 @@ You need to install openvino successfully.
 See this guide for installing [OpenVino ToolKit](https://software.intel.com/content/www/us/en/develop/tools/openvino-toolkit/choose-download.html).
 
 #### Step 2
-Clone the repository from this URL: https://github.com/davisclick/openvino-eye-gaze-estimation.
+Clone the repository from this URL: https://github.com/davisclick/openvino-computer-pointer-controller.
 
 #### Step 3
 After you clone the repo, you need to install the dependecies.
