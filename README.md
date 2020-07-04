@@ -102,6 +102,9 @@ Argument|Type|Description
 computer-pointer-controller  
 |
 |--media
+|   |--FP16.mp4
+|   |--FP32.mp4
+|   |--FPINT8.mp4
 |   |--demo.mp4
 |   |--demo.png
 |   |--pipeline.mp4
