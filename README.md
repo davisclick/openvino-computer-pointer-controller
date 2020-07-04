@@ -147,24 +147,24 @@ computer-pointer-controller
   * IEI Tank 870-Q170 - The inference workload should run on the CPU.
   * IEI Tank 870-Q170 - The inference workload should run on the Intel® HD Graphics 530 integrated GPU.
   * IEI Tank 870-Q170 - The inference workload will run on the IEI Mustang-F100-A10 FPGA card installed in this node.
+  
 
-* for FP32
-  | Type of Hardware | Total inference time in seconds              | Time for loading the model | fps |
+* for FP32(time in seconds)
+  | Type of Hardware | Total inference time                         | Time for loading the model | fps |
   |------------------|----------------------------------------------|----------------------------|------
   | CPU              |  69                                          |  1.5                       |  9  |
   | GPU              |  70                                          |  55                        |  9  |
   | FPGA             |  118                                         |  6.5                       |  5  |
 
-* for FP16
-  | Type of Hardware | Total inference time in seconds              | Time for loading the model | fps |
+* for FP16(time in seconds)
+  | Type of Hardware | Total inference time 	                    | Time for loading the model | fps |
   |------------------|----------------------------------------------|----------------------------|------
   | CPU              |  78                                          |  1.4                       |  8  |
   | GPU              |  75                                          |  53                      	 |  9  |
   | FPGA             |  125                                         |  4.5                       |  5  |
 
-
-* for INT8
-  | Type of Hardware | Total inference time in seconds              | Time for loading the model | fps |
+* for INT8(time in seconds)
+  | Type of Hardware | Total inference time                         | Time for loading the model | fps |
   |------------------|----------------------------------------------|----------------------------|------
   | CPU              |  79                                          |  1.4                       |  8  |
   | GPU              |  74                                          |  52 .4                     |  9  |
