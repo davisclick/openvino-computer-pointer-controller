@@ -97,7 +97,7 @@ Argument|Type|Description
 -pt  | Optional | Probability threshold for detections filtering.
 -pof | Optional | Specify the flags from fd, fl, hp, ge if you want to visualize the output of corresponding models of each frame (write flags with space seperation. Ex:- -flags fd fld hp).
 
- ### Directory Structure of the project
+ ### Project Directory Structure
   ```bash
 computer-pointer-controller  
 |
@@ -136,7 +136,7 @@ computer-pointer-controller
     + [mouse_controller.py](./src/mouse_controller.py) : Contains MouseController class which take x, y coordinates value, speed, precisions and according these values it moves the mouse pointer by using pyautogui library.
     + [profiling.py](./src/profiling.py) : To check performance of script line by line.
    
-- <b>README.md</b> File that you are reading right now.
+- <b>README.md</b> What you are reading now.
 - <b>requirements.txt</b> All the dependencies of the project listed here.
 
 ## Benchmarks
