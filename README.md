@@ -170,7 +170,7 @@ computer-pointer-controller
 
 ## Results
 
-- Load model time for GPU is larger than CPU and FPGA
+- The loading model time for GPU is larger than CPU and FPGA.
 - Reducing the precision affects the accuracy.
 - FPGA take more time executing inferences. 
 
