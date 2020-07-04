@@ -174,7 +174,7 @@ computer-pointer-controller
   | FPGA             |  130                                         |  3                         |  5  |
   
 
-*Using my Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz with the [OpenVino Workbench](https://docs.openvinotoolkit.org/latest/_docs_Workbench_DG_Install_from_Docker_Hub.html#install_dl_workbench_from_docker_hub_on_windows_os)
+* Using my Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz with the [OpenVino Workbench](https://docs.openvinotoolkit.org/latest/_docs_Workbench_DG_Install_from_Docker_Hub.html#install_dl_workbench_from_docker_hub_on_windows_os)
 
 #### Precisions FP32
 ![openvino-eye-gaze-estimation](./media/FP32.png)
