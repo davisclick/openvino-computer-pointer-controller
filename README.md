@@ -151,6 +151,8 @@ This is where you can provide information about the stand out suggestions that y
 ### Async Inference
 If you have used Async Inference in your code, benchmark the results and explain its effects on power and performance of your project.
 
+It is used the start_async method, but it is not a truly async mode.
+
 ### Edge Cases
 
 - If there is more than one face detected, it extracts only one face and do inference on it and ignoring other faces.
