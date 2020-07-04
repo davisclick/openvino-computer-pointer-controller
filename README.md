@@ -149,8 +149,6 @@ computer-pointer-controller
 This is where you can provide information about the stand out suggestions that you have attempted.
 
 ### Async Inference
-If you have used Async Inference in your code, benchmark the results and explain its effects on power and performance of your project.
-
 It is used the start_async method, but it is not a truly async mode.
 
 ### Edge Cases
