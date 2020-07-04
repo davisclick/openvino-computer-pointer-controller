@@ -177,7 +177,7 @@ computer-pointer-controller
 - FPGA take more time executing inferences. 
 
 ### Async Inference
-It is used the start_async method, but it is not a truly async mode.
+It is used the start_async method, but it is not a truly async way mode.
 
 ### Edge Cases
 
