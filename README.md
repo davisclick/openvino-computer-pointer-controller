@@ -164,14 +164,15 @@ computer-pointer-controller
 * for INT8
   | Type of Hardware | Total inference time in seconds              | Time for loading the model | fps |
   |------------------|----------------------------------------------|----------------------------|------
-  | CPU              |  78                                          |  1.4                       |  8  |
+  | CPU              |  79                                          |  1.4                       |  8  |
   | GPU              |  74                                          |  52 .4                     |  9  |
   | FPGA             |  130                                         |  3                         |  5  |
 
 ## Results
 
-## Stand Out Suggestions
-This is where you can provide information about the stand out suggestions that you have attempted.
+- Load model time for GPU is larger than CPU and FPGA
+- Load time for models with FP32 is less than FP16 and the same for FP16 models is less than INT8.
+- Reducing the precision affects the accuracy.
 
 ### Async Inference
 It is used the start_async method, but it is not a truly async mode.
