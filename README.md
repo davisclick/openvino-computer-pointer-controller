@@ -72,7 +72,7 @@ python3 src/main.py -fd ../models/intel/face-detection-adas-0001/FP16/face-detec
 -i ../media/demo.mp4 -d CPU -pof fd fl hp ge
  ```
 
-![openvino-eye-gaze-estimation](./media/demo.png)
+![openvino-eye-gaze-estimation](./media/demo.gif)
 
 ## Documentation
 
