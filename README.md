@@ -153,5 +153,5 @@ If you have used Async Inference in your code, benchmark the results and explain
 
 ### Edge Cases
 
--If there is more than one face detected, it extracts only one face and do inference on it and ignoring other faces.
--Moving the mouse pointer out of the maximum window width.
+- If there is more than one face detected, it extracts only one face and do inference on it and ignoring other faces.
+- Moving the mouse pointer out of the maximum window width.
