@@ -84,7 +84,7 @@ Argument|Type|Description
 -hp| Required | Path to .xml file of Head Pose Estimation model.
 -ge| Required | Path to .xml file of Gaze Estimation model.
 -i| Required | Specify the path of input video file or enter cam for taking input video from webcam.
--l| Optional | 
+-l| Optional | Absolute path to a shared library with the kernels impl.
 -d | Optional | Provide the target device: CPU / GPU / MYRIAD / FPGA
 -pt  | Optional | Probability threshold for detections filtering.
 -pof | Optional | Specify the flags from fd, fl, hp, ge if you want to visualize the output of corresponding models of each frame (write flags with space seperation. Ex:- -flags fd fld hp).
